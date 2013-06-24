@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130623204949) do
+ActiveRecord::Schema.define(:version => 20130624063712) do
 
   create_table "forem_posts", :force => true do |t|
     t.integer  "topic_id"
@@ -27,6 +27,12 @@ ActiveRecord::Schema.define(:version => 20130623204949) do
     t.datetime "created_at",                 :null => false
     t.datetime "updated_at",                 :null => false
     t.integer  "posts_count", :default => 0
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "login"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end
