@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    forem (0.0.1)
+    neifelheim-forem (0.0.1)
       rails (~> 3.2.13)
 
 GEM
@@ -113,6 +113,6 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
-  forem!
+  neifelheim-forem!
   rspec-rails
   sqlite3
