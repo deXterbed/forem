@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = 'The best Rails 3 forum engine in the world.'
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails", "~> 3.2.13"
   s.add_development_dependency "sqlite3"
