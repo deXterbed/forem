@@ -5,9 +5,6 @@ def sign_out!
     end
     helper_method :current_user
   STRING
-
-#  puts "***************************************#{''}*********************************************"
-#  p ApplicationController.ancestors
 end
 
 def sign_in!(options={})
